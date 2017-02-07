@@ -1,0 +1,282 @@
+/* 
+    Author     : 
+    Website    : 
+*/
+
+/* 
+    TABLE OF CONTENTS
+    ========================================================================= */
+/*      1. CSS RESET
+        2. DOCUMENT STYLES
+        3. TYPOGRAPHY 
+        4. HEADER 
+       
+*/
+
+/* 
+    1. CEE RESET 
+----------------------------------------------------------------------------- */
+a,
+abbr,
+acronym,
+address,
+applet,
+article,
+aside,
+audio,
+b,
+big,
+blockquote,
+body,
+canvas,
+caption,
+center,
+cite,
+code,
+dd,
+del,
+details,
+dfn,
+div,
+dl,
+dt,
+em,
+embed,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+html,
+i,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+mark,
+menu,
+nav,
+object,
+ol,
+output,
+p,
+pre,
+q,
+ruby,
+s,
+samp,
+section,
+small,
+span,
+strike,
+strong,
+sub,
+summary,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+time,
+tr,
+tt,
+u,
+ul,
+var,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+blockquote,
+q {
+    quotes: none;
+}
+blockquote:after,
+blockquote:before,
+q:after,
+q:before {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+*:focus {
+    outline: 0;
+    text-decoration: none;
+}
+a:focus,
+a:active {
+    text-decoration: none;
+    outline: 0;
+}
+
+/* ==========================================================================
+    2. DOCUMENT STYLES
+    ========================================================================= */
+html{
+  font-family:sans-serif;
+  -webkit-text-size-adjust:100%;
+  -ms-text-size-adjust:100%;
+}
+
+body {
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: 13px;
+    line-height: 22px;
+    color: #777;
+    background-color: #fff;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    padding-top: 50px;
+}
+
+
+
+
+/* ==========================================================================
+    3. TYPOGRAPHY 
+    ========================================================================= */
+p,
+a,
+span {
+    font-family: 'Montserrat', Arial, sans-serif;
+    line-height: 22px;
+}
+p {
+    padding-bottom: 15px;
+}
+a {
+    -webkit-transition: all 0.2s ease 0s;
+    -moz-transition: all 0.2s ease 0s;
+    -o-transition: all 0.2s ease 0s;
+    -ms-transition: all 0.2s ease 0s;
+    transition: all 0.2s ease 0s;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Varela Round', Arial, sans-serif;
+    font-weight: 700;
+    margin-bottom: 25px;
+    margin-top: 0;
+    color: #333;
+}
+
+h1{
+    font-size: 30px;
+    line-height: 30px;
+}
+
+h2{
+    font-size: 24px;
+    line-height: 26px;
+}
+
+h3{
+    font-size: 21px;
+    line-height: 24px;
+}
+
+h4{
+    font-size: 18px;
+    line-height: 22px;
+}
+
+h5{
+    font-size: 16px;
+    line-height: 18px;
+}
+
+h6{
+    font-size: 15px;
+    line-height: 18px;
+}
+
+strong{
+    font-weight: 600;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+ul,
+ol {
+    list-style-position: inside;
+}
+ul li,
+ol li {
+    padding-bottom: 5px;
+}
+
+blockquote + p {
+    margin-top: 15px;
+}
+
+
+/* ==========================================================================
+    4. HEADER 
+    ========================================================================= */
+.fdr-top-header .navbar{
+    background-color: #E91E63;
+    border: none;
+    color: #fff;
+    box-shadow: 0 0 4px rgba(0,0,0,.14), 0 4px 8px rgba(107, 100, 100, 0.28);
+}
+
+.navbar a{
+    color: #fff;
+}
+
+
+/* ==========================================================================
+    4. content
+    ========================================================================= */
+
+.SearchContainer {
+    padding: 40px 15px;
+    text-align: center;
+}
+
+.avatar{
+    width:100%;
+}
